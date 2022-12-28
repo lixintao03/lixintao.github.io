@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-28T09:09:56.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ol3-tdVDMRjn7ObYeiXt" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-28T12:16:53.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-_zd2YJ3NpR2owNM7Z45" version="20.7.4" type="github" pages="16">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4870" dy="-2670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -939,7 +939,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="验收逻辑" id="_Im0pDUPKXE3O1KZjG6f">
-    <mxGraphModel dx="1562" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1838" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="dfAwSZ30Or9XnYUsmgQ3-0" />
         <mxCell id="dfAwSZ30Or9XnYUsmgQ3-1" parent="dfAwSZ30Or9XnYUsmgQ3-0" />
@@ -1440,25 +1440,34 @@
           <mxGeometry x="2228.8" y="3010" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gw3hNjVhg69-E7Hqaaz0-26" value="检查非标准合包" style="rounded=0;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
-          <mxGeometry x="2720" y="3400" width="390" height="60" as="geometry" />
+          <mxGeometry x="2771.2" y="4230" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gw3hNjVhg69-E7Hqaaz0-27" value="是否为非标准合包？" style="rhombus;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
-          <mxGeometry x="2720" y="3550" width="390" height="80" as="geometry" />
+          <mxGeometry x="2771.2" y="4380" width="390" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gw3hNjVhg69-E7Hqaaz0-28" value="非标准合包验收异常不处理，记录流水" style="rounded=0;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
-          <mxGeometry x="2228.8" y="3560" width="390" height="60" as="geometry" />
+          <mxGeometry x="2280" y="4390" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gw3hNjVhg69-E7Hqaaz0-29" value="检查非标准合包" style="rounded=0;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
-          <mxGeometry x="2720" y="3720" width="390" height="60" as="geometry" />
+          <mxGeometry x="2771.2" y="4550" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gw3hNjVhg69-E7Hqaaz0-30" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
-          <mxGeometry x="2720" y="3010" width="680" height="330" as="geometry" />
+          <mxGeometry x="2720" y="3010" width="840" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="gw3hNjVhg69-E7Hqaaz0-31" value="根据验收" style="rounded=0;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
-          <mxGeometry x="2800" y="3150" width="390" height="60" as="geometry" />
+        <mxCell id="gw3hNjVhg69-E7Hqaaz0-31" value="创建包裹并返回" style="rounded=0;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
+          <mxGeometry x="2729" y="3230" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gw3hNjVhg69-E7Hqaaz0-32" value="是否三方配送" style="rhombus;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
-          <mxGeometry x="2794" y="3040" width="390" height="80" as="geometry" />
+          <mxGeometry x="3020.0000000000005" y="3030" width="216" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="li2NA3U9xkOjgWkaD1YA-3" value="根据一段获取包裹信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
+          <mxGeometry x="3240" y="3140" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="li2NA3U9xkOjgWkaD1YA-4" value="包裹号对应包裹是否存在？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
+          <mxGeometry x="2842.0000000000005" y="3130" width="216" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="li2NA3U9xkOjgWkaD1YA-5" value="直接返回包裹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
+          <mxGeometry x="2970" y="3230" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1696,7 +1705,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="二段妥投逻辑" id="aTy7kCeam_4ebFdeGMM5">
-    <mxGraphModel dx="1028" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="Q1l1oYVVwGvyuUkEKukH-0" />
         <mxCell id="Q1l1oYVVwGvyuUkEKukH-1" parent="Q1l1oYVVwGvyuUkEKukH-0" />
@@ -2533,7 +2542,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="德邦全程跟踪" id="JDTDJrAQuoourYYnDCWw">
-    <mxGraphModel dx="1028" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
