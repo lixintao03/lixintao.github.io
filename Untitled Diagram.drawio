@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T06:59:55.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="nmwx9OiF2KqbeazB12Pe" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-29T07:05:27.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PBuz-yAU5lnarh34ydhZ" version="20.7.4" type="github" pages="16">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4870" dy="-2670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1445,7 +1445,7 @@
         <mxCell id="-ju_PXxMPOE6a5onQOKV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="gw3hNjVhg69-E7Hqaaz0-25" target="gw3hNjVhg69-E7Hqaaz0-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gw3hNjVhg69-E7Hqaaz0-25" value="不存在，创建包裹（是否区分厂家自送类型）" style="rounded=0;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
+        <mxCell id="gw3hNjVhg69-E7Hqaaz0-25" value="不存在，创建包裹（是否区分厂家自送类型）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
           <mxGeometry x="2310" y="3010" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="gw3hNjVhg69-E7Hqaaz0-27" target="gw3hNjVhg69-E7Hqaaz0-28">
@@ -1454,11 +1454,14 @@
         <mxCell id="-ju_PXxMPOE6a5onQOKV-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="gw3hNjVhg69-E7Hqaaz0-27" target="gw3hNjVhg69-E7Hqaaz0-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gw3hNjVhg69-E7Hqaaz0-27" value="是否为非标准合包？" style="rhombus;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
+        <mxCell id="gw3hNjVhg69-E7Hqaaz0-27" value="是否为非标准合包？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
           <mxGeometry x="3109" y="4360" width="390" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gw3hNjVhg69-E7Hqaaz0-28" value="非标准合包验收异常不处理，记录流水" style="rounded=0;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
           <mxGeometry x="2604" y="4440" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ju_PXxMPOE6a5onQOKV-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="gw3hNjVhg69-E7Hqaaz0-29" target="-ju_PXxMPOE6a5onQOKV-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gw3hNjVhg69-E7Hqaaz0-29" value="根据包裹号获取所有订单对应该包裹号的包裹信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="dfAwSZ30Or9XnYUsmgQ3-1" vertex="1">
           <mxGeometry x="3110" y="4560" width="390" height="60" as="geometry" />
@@ -1511,13 +1514,13 @@
         <mxCell id="-ju_PXxMPOE6a5onQOKV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="-ju_PXxMPOE6a5onQOKV-6" target="-ju_PXxMPOE6a5onQOKV-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-ju_PXxMPOE6a5onQOKV-6" value="检查运单类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
+        <mxCell id="-ju_PXxMPOE6a5onQOKV-6" value="检查运单类型" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
           <mxGeometry x="3314" y="3130" width="168" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="-ju_PXxMPOE6a5onQOKV-7" target="-ju_PXxMPOE6a5onQOKV-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-ju_PXxMPOE6a5onQOKV-7" value="根据二段运单号获取包裹信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
+        <mxCell id="-ju_PXxMPOE6a5onQOKV-7" value="根据二段运单号获取包裹信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
           <mxGeometry x="3214" y="3230" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="-ju_PXxMPOE6a5onQOKV-8" target="-ju_PXxMPOE6a5onQOKV-9">
@@ -1649,14 +1652,30 @@
         <mxCell id="-ju_PXxMPOE6a5onQOKV-69" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
           <mxGeometry x="2750" y="4400" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-ju_PXxMPOE6a5onQOKV-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="-ju_PXxMPOE6a5onQOKV-71" target="-ju_PXxMPOE6a5onQOKV-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-71" value="获取合包的所有订单信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
           <mxGeometry x="3110" y="4800" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ju_PXxMPOE6a5onQOKV-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="-ju_PXxMPOE6a5onQOKV-72" target="-ju_PXxMPOE6a5onQOKV-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-72" value="更新所有包裹的验收状态，记录流水" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
           <mxGeometry x="3109" y="4680" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="-ju_PXxMPOE6a5onQOKV-73" target="-ju_PXxMPOE6a5onQOKV-74">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ju_PXxMPOE6a5onQOKV-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="-ju_PXxMPOE6a5onQOKV-73" target="-ju_PXxMPOE6a5onQOKV-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3090" y="5040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3020" y="4960" />
+              <mxPoint x="3020" y="5170" />
+              <mxPoint x="3305" y="5170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-73" value="检查订单状态是否允许修改为部分到达企配仓？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
           <mxGeometry x="3110" y="4920" width="390" height="80" as="geometry" />
@@ -1676,7 +1695,7 @@
         <mxCell id="-ju_PXxMPOE6a5onQOKV-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dfAwSZ30Or9XnYUsmgQ3-1" source="-ju_PXxMPOE6a5onQOKV-77" target="-ju_PXxMPOE6a5onQOKV-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-ju_PXxMPOE6a5onQOKV-77" value="检查订单包裹是否全部集齐？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
+        <mxCell id="-ju_PXxMPOE6a5onQOKV-77" value="检查订单状态及包裹是否全部集齐？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
           <mxGeometry x="3110" y="5210" width="390" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-78" value="调用统一调度服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
@@ -1690,6 +1709,9 @@
         </mxCell>
         <mxCell id="-ju_PXxMPOE6a5onQOKV-84" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
           <mxGeometry x="2755" y="5265" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ju_PXxMPOE6a5onQOKV-89" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dfAwSZ30Or9XnYUsmgQ3-1">
+          <mxGeometry x="2980" y="4985" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
