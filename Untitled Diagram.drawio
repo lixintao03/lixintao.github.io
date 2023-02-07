@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T07:09:17.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="I78gnuiUfhjmtwztACLF" version="20.8.16" type="github" pages="34">
+<mxfile host="app.diagrams.net" modified="2023-02-07T07:14:56.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EgBx2KaLfy43GSeWHRMu" version="20.8.16" type="github" pages="34">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4870" dy="-2670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6138,28 +6138,21 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Fo9YCp0WZCRu2F010xUO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-43" target="Fo9YCp0WZCRu2F010xUO-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="465" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="530" y="340" width="245" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="Fo9YCp0WZCRu2F010xUO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-1" target="Fo9YCp0WZCRu2F010xUO-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-1" value="内部三方运单变更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fo9YCp0WZCRu2F010xUO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-2" target="Fo9YCp0WZCRu2F010xUO-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="150" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-2" value="内部出库消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fo9YCp0WZCRu2F010xUO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-3" target="Fo9YCp0WZCRu2F010xUO-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="355" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-3" value="内部企配二段创建消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-4" target="Fo9YCp0WZCRu2F010xUO-45">
           <mxGeometry relative="1" as="geometry" />
@@ -6185,10 +6178,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-8" value="通过外部接口，获取运单对应的全程跟踪，防止订运关系后到，运单全程跟踪数据丢失" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="670" width="120" height="70" as="geometry" />
+          <mxGeometry x="380" y="665" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-11" target="Fo9YCp0WZCRu2F010xUO-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-11" value="将全程跟踪信息转化内部运单消息，走重刷运单全程跟踪逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="795" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-12" target="Fo9YCp0WZCRu2F010xUO-13">
           <mxGeometry relative="1" as="geometry" />
@@ -6206,7 +6202,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-14" value="抹除原运单、订单（部分）妥投及以后的全程跟踪信息各个节点数据，置为无效" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="435" width="120" height="70" as="geometry" />
+          <mxGeometry x="294" y="435" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-17" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="245" width="40" height="30" as="geometry" />
@@ -6224,10 +6220,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-32" value="重新构建订单下单后的全程跟踪信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="670" width="120" height="70" as="geometry" />
+          <mxGeometry x="210" y="665" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-34" target="Fo9YCp0WZCRu2F010xUO-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-34" value="将全程跟踪信息转化内部运单消息，走重刷订单全程跟踪逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="795" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-45" target="Fo9YCp0WZCRu2F010xUO-54">
           <mxGeometry relative="1" as="geometry">
@@ -6244,10 +6243,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-47" value="模拟运单创建消息，记录全程跟踪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="295" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-54" target="Fo9YCp0WZCRu2F010xUO-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-54" value="通过外部接口，获取运单对应的全程跟踪，防止订运关系后到，运单全程跟踪数据丢失" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="430" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-55" target="Fo9YCp0WZCRu2F010xUO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-55" value="订单加锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-57" value="订单解锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
