@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T12:50:36.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KvS2KzXltkP7kD5y_AF5" version="20.8.16" type="github" pages="34">
+<mxfile host="app.diagrams.net" modified="2023-02-07T12:50:56.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zvq6liWloTVMjK90q9FE" version="20.8.16" type="github" pages="34">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4870" dy="-2670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6141,13 +6141,13 @@
           <mxGeometry x="530" y="340" width="245" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-1" value="内部三方运单变更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="76.5" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-2" value="内部出库消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="281.5" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-3" value="内部企配二段创建消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="466.5" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fo9YCp0WZCRu2F010xUO-4" target="Fo9YCp0WZCRu2F010xUO-45">
           <mxGeometry relative="1" as="geometry" />
@@ -6277,7 +6277,7 @@
           <mxGeometry x="780" y="250" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-70" value="内部企配二段取消消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="707" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="633.5" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
