@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T10:18:29.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="P5iDhLw75lTWIjA51XCa" version="20.8.16" type="github" pages="34">
+<mxfile host="app.diagrams.net" modified="2023-02-07T12:50:36.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KvS2KzXltkP7kD5y_AF5" version="20.8.16" type="github" pages="34">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4870" dy="-2670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6272,6 +6272,12 @@
         </mxCell>
         <mxCell id="Fo9YCp0WZCRu2F010xUO-68" value="减" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#f00a15;" vertex="1" parent="1">
           <mxGeometry x="540" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-69" value="检查订单状态，对于企配中新验收后，运单状态变更的订单，是不会处理运单变更消息的，若非要加上一个运单的话，客服可以通过下虚拟订单，将此运单加上" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#f00a15;" vertex="1" parent="1">
+          <mxGeometry x="780" y="250" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-70" value="内部企配二段取消消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="10" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
