@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T10:01:26.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0YcHTqdH4UWYpaaMAQx6" version="20.8.20" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-02-13T10:23:20.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="c_D1Bla0yLovXTP6KaJP" version="20.8.20" type="github" pages="36">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4870" dy="-2670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6288,7 +6288,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ByGoTVG-UGboFgNxXrgw-1" value="异常订单中心" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1310" width="1430" height="1230" as="geometry" />
+          <mxGeometry x="260" y="1310" width="1290" height="1230" as="geometry" />
         </mxCell>
         <mxCell id="ByGoTVG-UGboFgNxXrgw-2" value="业务系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="ByGoTVG-UGboFgNxXrgw-1">
           <mxGeometry y="20" width="140" height="1210" as="geometry" />
@@ -6503,14 +6503,8 @@
         <mxCell id="ByGoTVG-UGboFgNxXrgw-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ByGoTVG-UGboFgNxXrgw-1" source="ByGoTVG-UGboFgNxXrgw-92" target="ByGoTVG-UGboFgNxXrgw-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ByGoTVG-UGboFgNxXrgw-62" value="策略中心" style="swimlane;startSize=20;html=1;" vertex="1" parent="ByGoTVG-UGboFgNxXrgw-1">
-          <mxGeometry x="1150" y="20" width="140" height="1210" as="geometry" />
-        </mxCell>
-        <mxCell id="ByGoTVG-UGboFgNxXrgw-63" value="策略中心配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ByGoTVG-UGboFgNxXrgw-62">
-          <mxGeometry x="15" y="284" width="110" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="ByGoTVG-UGboFgNxXrgw-64" value="外部运营平台" style="swimlane;startSize=20;html=1;" vertex="1" parent="ByGoTVG-UGboFgNxXrgw-1">
-          <mxGeometry x="1290" y="20" width="140" height="1210" as="geometry" />
+          <mxGeometry x="1150" y="20" width="140" height="1210" as="geometry" />
         </mxCell>
         <mxCell id="ByGoTVG-UGboFgNxXrgw-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="ByGoTVG-UGboFgNxXrgw-64" source="ByGoTVG-UGboFgNxXrgw-66" target="ByGoTVG-UGboFgNxXrgw-67">
           <mxGeometry relative="1" as="geometry" />
