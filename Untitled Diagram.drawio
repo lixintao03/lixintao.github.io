@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T09:40:03.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5lvKUJRnBhRb3ltKLDL8" version="20.8.20" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-02-14T09:45:39.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZgkypvjVU2-XsTQXgrRG" version="20.8.20" type="github" pages="36">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4870" dy="-2670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6255,8 +6255,8 @@
         <mxCell id="Fo9YCp0WZCRu2F010xUO-68" value="减，运单A，B变A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#f00a15;" parent="1" vertex="1">
           <mxGeometry x="1156" y="550" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fo9YCp0WZCRu2F010xUO-69" value="检查订单状态，对于企配中新验收后，运单状态变更的订单，是不会处理运单变更消息的，若非要加上一个运单的话，客服可以通过下虚拟订单，将此运单加上" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#f00a15;" parent="1" vertex="1">
-          <mxGeometry x="980" y="130" width="260" height="60" as="geometry" />
+        <mxCell id="Fo9YCp0WZCRu2F010xUO-69" value="检查订单状态，对于企配中心验收后，运单状态变更的订单，是不会处理运单变更消息的，若非要加上一个运单的话，客服可以通过下虚拟订单，将此运单加上" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#f00a15;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="120" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3Ich17CCwk0csLRDfVE--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Ich17CCwk0csLRDfVE--1" target="Fo9YCp0WZCRu2F010xUO-57">
           <mxGeometry relative="1" as="geometry" />
@@ -6355,6 +6355,9 @@
         </mxCell>
         <mxCell id="qpmc6seSz5ym9AwqGnpz-25" value="原运单全程跟踪、订单发货及以后的全程跟踪信息各个节点数据，置为无效" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="784" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qpmc6seSz5ym9AwqGnpz-29" value="&lt;font color=&quot;#009900&quot;&gt;防止订运关系后维护，&lt;br&gt;丢失部分运单节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="720" y="800" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
