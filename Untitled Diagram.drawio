@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T10:39:39.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="CnOHsMxiuZTA_Ros3uPa" version="21.1.4" type="github" pages="37">
+<mxfile host="app.diagrams.net" modified="2023-04-06T11:31:42.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="TXb560U12MwKnEIt5jNc" version="21.1.4" type="github" pages="37">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4358" dy="-2958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6996,9 +6996,6 @@
         <mxCell id="fNpxJSjMHarjlW731-ot-11" value="防重&lt;br&gt;流程节点执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="260" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fNpxJSjMHarjlW731-ot-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNpxJSjMHarjlW731-ot-12" target="fNpxJSjMHarjlW731-ot-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="fNpxJSjMHarjlW731-ot-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNpxJSjMHarjlW731-ot-12" target="fNpxJSjMHarjlW731-ot-61">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="644" y="350" as="targetPoint" />
@@ -7034,10 +7031,7 @@
         <mxCell id="fNpxJSjMHarjlW731-ot-32" value="下单请求&lt;br&gt;防腐层实体转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="824" y="197" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fNpxJSjMHarjlW731-ot-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNpxJSjMHarjlW731-ot-33" target="fNpxJSjMHarjlW731-ot-48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fNpxJSjMHarjlW731-ot-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNpxJSjMHarjlW731-ot-33" target="fNpxJSjMHarjlW731-ot-62">
+        <mxCell id="fNpxJSjMHarjlW731-ot-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNpxJSjMHarjlW731-ot-33" target="fNpxJSjMHarjlW731-ot-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNpxJSjMHarjlW731-ot-33" value="工业下单接口调用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -7123,6 +7117,18 @@
         </mxCell>
         <mxCell id="fNpxJSjMHarjlW731-ot-68" value="基础设施层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1266" y="41" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNpxJSjMHarjlW731-ot-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNpxJSjMHarjlW731-ot-62" target="fNpxJSjMHarjlW731-ot-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1090" y="480" />
+              <mxPoint x="1090" y="340" />
+              <mxPoint x="879" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNpxJSjMHarjlW731-ot-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNpxJSjMHarjlW731-ot-61" target="fNpxJSjMHarjlW731-ot-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
