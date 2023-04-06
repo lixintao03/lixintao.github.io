@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T11:39:13.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oI3o6QwlazSspOm5O0P5" version="21.1.4" type="github" pages="37">
+<mxfile host="app.diagrams.net" modified="2023-04-06T11:39:30.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="bHFspsLmxB-dCY6rzdxn" version="21.1.4" type="github" pages="37">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4358" dy="-2958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6942,10 +6942,10 @@
         <mxCell id="fNpxJSjMHarjlW731-ot-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="96" y="96.5" width="220" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="fNpxJSjMHarjlW731-ot-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="fNpxJSjMHarjlW731-ot-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1140" y="100" width="340" height="505" as="geometry" />
         </mxCell>
-        <mxCell id="fNpxJSjMHarjlW731-ot-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="fNpxJSjMHarjlW731-ot-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="710" y="101" width="340" height="501" as="geometry" />
         </mxCell>
         <mxCell id="fNpxJSjMHarjlW731-ot-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
