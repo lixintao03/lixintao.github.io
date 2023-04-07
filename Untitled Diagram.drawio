@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T11:39:30.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="bHFspsLmxB-dCY6rzdxn" version="21.1.4" type="github" pages="37">
+<mxfile host="app.diagrams.net" modified="2023-04-07T05:48:17.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="j5z3fbA1fLsR-Yy7tDEn" version="21.1.4" type="github" pages="37">
   <diagram name="全景图" id="UVDUqoiEC4VHuDzHsHpQ">
     <mxGraphModel dx="4358" dy="-2958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6935,7 +6935,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="75jOrPN2wR7dNnCS-wZS" name="承运平台物流平台下单">
-    <mxGraphModel dx="1750" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7103,7 +7103,7 @@
         <mxCell id="fNpxJSjMHarjlW731-ot-55" value="领域上下文对象&lt;br&gt;配送信息更新运单号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="721.75" y="507" width="135.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fNpxJSjMHarjlW731-ot-57" value="获取响应运单号&lt;br&gt;赋值给内部对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fNpxJSjMHarjlW731-ot-57" value="获取响应运单号、履约服务商赋值给内部对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="467" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fNpxJSjMHarjlW731-ot-63" value="领域服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
